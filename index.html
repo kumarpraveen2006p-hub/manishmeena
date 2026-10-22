@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="hi" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Movie - Official Telegram Channel | Latest Movies & Web Series</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Plus+Jakarta+Sans:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        cinema: {
+                            bg: '#0a0a0f',
+                            card: '#13131c',
+                            cardBorder: '#232333',
+                            red: '#e50914',
+                            redHover: '#b80710',
+                            gold: '#ffd700',
+                            telegram: '#229ed9',
+                            telegramDark: '#1a7dae',
+                            telegramLight: '#40b3ec'
+                        }
+                    },
+                    fontFamily: {
+                        bebas: ['Bebas Neue', 'sans-serif'],
+                        sans: ['Plus Jakarta Sans', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        body {
+            background-color: #050508;
+            color: #f3f4f6;
+            font-family: 'Plus Jakarta Sans', sans-serif;
+        }
+
+        .mobile-frame {
+            max-width: 450px;
+            margin: 0 auto;
+            background: #0a0a0f;
+            min-height: 100vh;
+            position: relative;
+            box-shadow: 0 0 60px rgba(34, 158, 217, 0.2);
+            border-left: 1px solid rgba(255, 255, 255, 0.08);
+            border-right: 1px solid rgba(255, 255, 255, 0.08);
+            overflow-x: hidden;
+            padding-bottom: 90px;
+        }
+
+        .gold-gradient-text {
+            background: linear-gradient(135deg, #FFF5C0 0%, #FFD700 50%, #FFA500 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .telegram-glow {
+            box-shadow: 0 0 25px rgba(34, 158, 217, 0.55);
+        }
+
+        .red-glow {
+            box-shadow: 0 0 20px rgba(229, 9, 20, 0.4);
+        }
+
+        .telegram-pulse {
+            animation: pulse-telegram 2s infinite;
+        }
+
+        @keyframes pulse-telegram {
+            0% {
+                box-shadow: 0 0 0 0 rgba(34, 158, 217, 0.8);
+            }
+            70% {
+                box-shadow: 0 0 0 14px rgba(34, 158, 217, 0);
+            }
+            100% {
+                box-shadow: 0 0 0 0 rgba(34, 158, 217, 0);
+            }
+        }
+
+        /* Hide scrollbars for chips */
+        .no-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .no-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+    </style>
+</head>
+<body class="antialiased selection:bg-cinema-telegram selection:text-white">
+
+    <!-- Desktop Background Ambience -->
+    <div class="fixed inset-0 pointer-events-none hidden lg:block overflow-hidden opacity-25">
+        <div class="absolute -top-40 -left-40 w-[500px] h-[500px] bg-cinema-telegram rounded-full blur-[140px]"></div>
+        <div class="absolute -bottom-40 -right-40 w-[500px] h-[500px] bg-cinema-red rounded-full blur-[140px]"></div>
+    </div>
+
+    <!-- Floating Quick Access Telegram Button -->
+    <a href="https://t.me/your_telegram_channel" target="_blank" class="fixed bottom-24 right-4 z-40 bg-cinema-telegram text-white w-13 h-13 w-12 h-12 rounded-full flex items-center justify-center text-2xl shadow-2xl border-2 border-white/30 telegram-pulse hover:scale-110 transition-transform" title="Join Telegram Channel">
+        <i class="fa-brands fa-telegram"></i>
+    </a>
+
+    <!-- MAIN MOBILE CONTAINER -->
+    <div class="mobile-frame">
+
+        <!-- Top Announcement Bar -->
+        <div class="bg-gradient-to-r from-cinema-red via-cinema-telegram to-cinema-red text-white text-[10px] py-1.5 px-3 text-center font-extrabold tracking-wider flex items-center justify-center gap-1.5 uppercase sticky top-0 z-50 shadow-md">
+            <span class="animate-ping w-2 h-2 rounded-full bg-cinema-gold"></span>
+            <span>All Movies & Web Series Free Download Telegram Channel</span>
+        </div>
+
+        <!-- Header -->
+        <header class="px-4 py-3 bg-cinema-bg/95 backdrop-blur-md sticky top-[25px] z-40 border-b border-white/10 flex items-center justify-between">
+            <div class="flex items-center gap-2">
+                <div class="w-8 h-8 rounded-lg bg-gradient-to-tr from-cinema-red to-cinema-telegram flex items-center justify-center text-white text-base shadow-md">
+                    <i class="fa-solid fa-popcorn"></i>
+                </div>
+                <div>
+                    <span class="font-bebas text-2xl font-black tracking-wider text-white leading-none block">ALL MOVIE</span>
+                    <span class="text-[9px] text-cinema-telegram font-bold uppercase tracking-widest block -mt-1">Official Telegram</span>
+                </div>
+            </div>
+
+            <!-- Top Header Telegram Button -->
+            <a href="https://t.me/your_telegram_channel" target="_blank" class="bg-cinema-telegram hover:bg-cinema-telegramLight text-white text-[11px] font-extrabold px-3.5 py-1.5 rounded-full shadow-md transition-all flex items-center gap-1.5 border border-white/20">
+                <i class="fa-brands fa-telegram text-sm"></i>
+                <span>Join Channel</span>
+            </a>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="pt-6 pb-4 px-4 text-center relative overflow-hidden">
+            <!-- Backdrop Glow -->
+            <div class="absolute inset-0 bg-gradient-to-b from-cinema-telegram/15 via-transparent to-cinema-bg pointer-events-none"></div>
+
+            <div class="inline-flex items-center gap-1.5 bg-cinema-telegram/20 border border-cinema-telegram/60 text-sky-300 text-[10px] font-extrabold px-3 py-1 rounded-full uppercase tracking-wider mb-3 backdrop-blur-md">
+                <i class="fa-solid fa-bolt text-cinema-gold"></i>
+                <span>Daily 10+ New HD Movies Uploaded</span>
+            </div>
+
+            <h1 class="font-bebas text-4xl sm:text-5xl font-black text-white leading-none tracking-wide mb-2">
+                SABHI LATEST MOVIES <br>
+                <span class="gold-gradient-text">FREE ME DOWNLOAD KAREIN!</span>
+            </h1>
+
+            <p class="text-xs text-gray-300 font-medium mb-5 px-2 leading-relaxed">
+                Bollywood, Hollywood Hindi Dubbed, South Indian, Web Series aur HD Teasers — Sab Kuch Ek Hi Telegram Channel Par!
+            </p>
+
+            <!-- Hero Primary Telegram CTA -->
+            <a href="https://t.me/your_telegram_channel" target="_blank" class="w-full bg-gradient-to-r from-cinema-telegram via-sky-500 to-cinema-telegram hover:from-cinema-telegramDark hover:to-cinema-telegram text-white font-black text-sm py-3.5 px-5 rounded-2xl shadow-xl flex items-center justify-center gap-2.5 transition-all transform hover:scale-[1.02] border border-white/25 telegram-glow mb-3">
+                <i class="fa-brands fa-telegram text-xl"></i>
+                <span class="uppercase tracking-wider">JOIN ALL MOVIE TELEGRAM CHANNEL</span>
+            </a>
+
+            <!-- Quick Channel Highlights -->
+            <div class="flex items-center justify-around bg-cinema-card/80 border border-cinema-cardBorder rounded-xl p-2.5 text-[10px] font-bold text-gray-300 backdrop-blur-sm">
+                <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-circle-check text-cinema-telegram"></i>
+                    <span>100% Free</span>
+                </div>
+                <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-bolt text-cinema-gold"></i>
+                    <span>Fast Speed</span>
+                </div>
+                <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-film text-cinema-red"></i>
+                    <span>4K & 1080p</span>
+                </div>
+                <div class="flex items-center gap-1">
+                    <i class="fa-solid fa-shield-halved text-emerald-400"></i>
+                    <span>No Ads</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Live Search Simulation & Category Chips -->
+        <section class="px-4 py-2 space-y-3">
+            <!-- Search Bar -->
+            <div class="relative">
+                <i class="fa-solid fa-magnifying-glass absolute left-3.5 top-1/2 -translate-y-1/2 text-gray-400 text-xs"></i>
+                <input type="text" id="searchInput" oninput="filterMovies()" placeholder="Search any movie or web series name..." class="w-full bg-cinema-card border border-cinema-cardBorder focus:border-cinema-telegram text-white text-xs rounded-xl pl-9 pr-4 py-2.5 outline-none transition-all placeholder:text-gray-500 shadow-inner">
+            </div>
+
+            <!-- Filter Chips -->
+            <div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1 text-xs font-bold">
+                <button onclick="setCategory('All')" class="chip-btn bg-cinema-telegram text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap shadow-md transition-all border border-white/20">All</button>
+                <button onclick="setCategory('Bollywood')" class="chip-btn bg-cinema-card text-gray-300 hover:text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap border border-cinema-cardBorder transition-all">Bollywood</button>
+                <button onclick="setCategory('Hollywood')" class="chip-btn bg-cinema-card text-gray-300 hover:text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap border border-cinema-cardBorder transition-all">Hollywood Hindi</button>
+                <button onclick="setCategory('South')" class="chip-btn bg-cinema-card text-gray-300 hover:text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap border border-cinema-cardBorder transition-all">South Dubbed</button>
+                <button onclick="setCategory('Web Series')" class="chip-btn bg-cinema-card text-gray-300 hover:text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap border border-cinema-cardBorder transition-all">Web Series</button>
+                <button onclick="setCategory('Teasers')" class="chip-btn bg-cinema-card text-gray-300 hover:text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap border border-cinema-cardBorder transition-all">Movie Teasers</button>
+            </div>
+        </section>
+
+        <!-- Trending Movies Grid -->
+        <section class="p-4 space-y-3">
+            <div class="flex items-center justify-between">
+                <h2 class="font-bebas text-xl font-bold tracking-wide text-white flex items-center gap-2">
+                    <i class="fa-solid fa-fire text-cinema-red"></i> TRENDING ON "ALL MOVIE"
+                </h2>
+                <span class="text-[10px] text-cinema-telegram font-bold uppercase tracking-wider">Direct Telegram Download</span>
+            </div>
+
+            <!-- Movie Grid -->
+            <div class="grid grid-cols-2 gap-3" id="movieGrid">
+                <!-- Movie cards populated dynamically via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Dynamic VIP Telegram Banner -->
+        <section class="mx-4 my-2 p-4 rounded-2xl bg-gradient-to-br from-cinema-telegram/30 via-cinema-card to-cinema-bg border border-cinema-telegram/50 text-center relative overflow-hidden telegram-glow">
+            <div class="w-11 h-11 rounded-full bg-cinema-telegram text-white flex items-center justify-center text-2xl mx-auto mb-2 shadow-lg">
+                <i class="fa-brands fa-telegram"></i>
+            </div>
+            <h3 class="text-sm font-extrabold text-white uppercase tracking-wider">Join "ALL MOVIE" VIP Channel 🎬</h3>
+            <p class="text-xs text-sky-200 mt-1 mb-3 font-medium">Daily Direct Google Drive & Telegram High Speed Download Links!</p>
+
+            <a href="https://t.me/your_telegram_channel" target="_blank" class="w-full inline-flex items-center justify-center gap-2 bg-cinema-telegram hover:bg-cinema-telegramLight text-white font-extrabold text-xs py-3 px-4 rounded-xl shadow-lg transition-all border border-white/20">
+                <i class="fa-brands fa-telegram text-base"></i>
+                <span>JOIN ALL MOVIE CHANNEL NOW</span>
+            </a>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-4 px-4 space-y-3">
+            <h2 class="font-bebas text-xl font-bold tracking-wide text-white text-center">
+                WHY JOIN "ALL MOVIE" TELEGRAM?
+            </h2>
+
+            <div class="grid grid-cols-1 gap-2.5 text-xs">
+                <div class="bg-cinema-card p-3 rounded-xl border border-cinema-cardBorder flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-cinema-red/20 text-cinema-red flex items-center justify-center text-base flex-shrink-0">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white">Superfast Download Speed</h4>
+                        <p class="text-[10px] text-gray-400">Direct Telegram files with no slow server waiting times.</p>
+                    </div>
+                </div>
+
+                <div class="bg-cinema-card p-3 rounded-xl border border-cinema-cardBorder flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-cinema-gold/20 text-cinema-gold flex items-center justify-center text-base flex-shrink-0">
+                        <i class="fa-solid fa-crown"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white">4K & 1080p Ultra HD Quality</h4>
+                        <p class="text-[10px] text-gray-400">Multi-audio prints (Hindi, English, Tamil, Telugu).</p>
+                    </div>
+                </div>
+
+                <div class="bg-cinema-card p-3 rounded-xl border border-cinema-cardBorder flex items-center gap-3">
+                    <div class="w-9 h-9 rounded-lg bg-cinema-telegram/20 text-cinema-telegram flex items-center justify-center text-base flex-shrink-0">
+                        <i class="fa-solid fa-comments text-base"></i>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-white">Movie Request Group</h4>
+                        <p class="text-[10px] text-gray-400">Request any old or new movie & get links within minutes!</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Share Channel Section -->
+        <section class="p-4 space-y-2">
+            <button onclick="shareChannelOnTelegram()" class="w-full bg-cinema-card hover:bg-white/10 text-white font-extrabold text-xs py-3 px-4 rounded-xl border border-cinema-cardBorder flex items-center justify-center gap-2 transition-all">
+                <i class="fa-brands fa-telegram text-cinema-telegram text-base"></i>
+                <span>Share "All Movie" Channel With Friends</span>
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer class="text-center py-5 px-4 text-[10px] text-gray-500 border-t border-white/10">
+            <p class="font-bebas text-sm text-gray-300 font-bold mb-0.5">ALL MOVIE TELEGRAM COMMUNITY</p>
+            <p>© 2026 All Rights Reserved. Entertainment Fan Club.</p>
+            <div class="mt-2">
+                <a href="https://t.me/your_telegram_channel" target="_blank" class="text-cinema-telegram font-bold hover:underline">Click Here To Join Telegram Channel</a>
+            </div>
+        </footer>
+
+        <!-- Sticky Bottom Bar Navigation -->
+        <div class="fixed bottom-0 left-0 right-0 z-50 p-2.5 bg-black/95 backdrop-blur-md border-t border-white/10 max-w-[450px] mx-auto flex items-center gap-2">
+            <div class="flex-1 text-left pl-1">
+                <span class="text-[9px] text-gray-400 font-bold block uppercase tracking-wider">ALL MOVIE TELEGRAM</span>
+                <span class="text-xs font-black text-cinema-gold leading-none block">Free HD Downloads</span>
+            </div>
+
+            <a href="https://t.me/your_telegram_channel" target="_blank" class="bg-gradient-to-r from-cinema-telegram to-sky-500 hover:from-cinema-telegramDark hover:to-cinema-telegram text-white font-extrabold text-xs py-3 px-5 rounded-xl shadow-lg telegram-glow flex items-center justify-center gap-2 transition-all border border-white/20">
+                <i class="fa-brands fa-telegram text-base"></i>
+                <span class="tracking-wide">JOIN NOW</span>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- Movie Download / Detail Modal -->
+    <div id="movieModal" class="fixed inset-0 bg-black/95 backdrop-blur-md z-50 hidden flex flex-col items-center justify-center p-4">
+        <div class="w-full max-w-sm relative bg-cinema-card rounded-2xl border border-cinema-cardBorder overflow-hidden shadow-2xl">
+            <!-- Close Button -->
+            <button onclick="closeMovieModal()" class="absolute top-3 right-3 z-10 w-8 h-8 rounded-full bg-black/70 text-white hover:text-cinema-red flex items-center justify-center text-base border border-white/20">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+
+            <!-- Modal Poster Backdrop -->
+            <div class="relative h-48 w-full overflow-hidden">
+                <img id="modalImg" src="" alt="Movie Poster" class="w-full h-full object-cover">
+                <div class="absolute inset-0 bg-gradient-to-t from-cinema-card via-black/40 to-transparent"></div>
+                <span id="modalQuality" class="absolute bottom-3 left-3 bg-cinema-red text-white font-black text-[10px] px-2.5 py-0.5 rounded uppercase tracking-wider">4K Ultra HD</span>
+            </div>
+
+            <!-- Modal Content -->
+            <div class="p-4 space-y-3">
+                <div>
+                    <h3 id="modalTitle" class="font-bebas text-2xl font-black text-white leading-none">Movie Title</h3>
+                    <p id="modalCategory" class="text-[10px] text-cinema-telegram font-bold uppercase tracking-wider mt-0.5">Category</p>
+                </div>
+
+                <div class="flex items-center gap-2 text-xs font-bold text-gray-300">
+                    <span class="text-cinema-gold"><i class="fa-solid fa-star"></i> <span id="modalRating">8.9</span>/10</span>
+                    <span class="text-gray-600">•</span>
+                    <span>Dual Audio (Hindi Dubbed)</span>
+                </div>
+
+                <div class="bg-cinema-bg/80 p-3 rounded-xl border border-white/10 space-y-1.5 text-xs">
+                    <p class="text-gray-300 text-[11px] font-medium leading-relaxed">
+                        Is movie ko HDQuality 480p, 720p, 1080p aur 4K me download ya online watch karne ke liye hamara official <b>"All Movie" Telegram Channel</b> join karein.
+                    </p>
+                </div>
+
+                <!-- Modal Direct Telegram CTAs -->
+                <a href="https://t.me/your_telegram_channel" target="_blank" class="w-full bg-cinema-telegram hover:bg-cinema-telegramLight text-white font-extrabold text-xs py-3.5 px-4 rounded-xl shadow-lg flex items-center justify-center gap-2 transition-all border border-white/20 telegram-glow">
+                    <i class="fa-brands fa-telegram text-lg"></i>
+                    <span>DOWNLOAD / WATCH ON TELEGRAM</span>
+                </a>
+
+                <button onclick="closeMovieModal()" class="w-full text-center text-[11px] text-gray-400 font-bold hover:text-white pt-1">
+                    Back to Movies List
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Data & Logic -->
+    <script>
+        // Sample Movies List
+        const movies = [
+            {
+                id: 1,
+                title: "KALAA: The Dark Chapter",
+                category: "Bollywood",
+                quality: "4K Dual Audio",
+                rating: "9.2",
+                image: "https://images.unsplash.com/photo-1536440136628-849c177e76a1?auto=format&fit=crop&w=600&q=80",
+                badge: "🔥 Teaser Out"
+            },
+            {
+                id: 2,
+                title: "Shadow Warrior 2026",
+                category: "Hollywood",
+                quality: "1080p Hindi Dubbed",
+                rating: "8.7",
+                image: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+                badge: "Popular"
+            },
+            {
+                id: 3,
+                title: "KGF & Pushpa 3 Teasers",
+                category: "South",
+                quality: "4K Ultra HD",
+                rating: "9.5",
+                image: "https://images.unsplash.com/photo-1574267432553-4b4628081c31?auto=format&fit=crop&w=600&q=80",
+                badge: "South Heavy"
+            },
+            {
+                id: 4,
+                title: "Cyber City Web Series S02",
+                category: "Web Series",
+                quality: "All Episodes HD",
+                rating: "8.9",
+                image: "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=600&q=80",
+                badge: "Complete Season"
+            },
+            {
+                id: 5,
+                title: "Interstellar Horizon",
+                category: "Hollywood",
+                quality: "4K Multi Audio",
+                rating: "9.1",
+                image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=600&q=80",
+                badge: "Recommended"
+            },
+            {
+                id: 6,
+                title: "Next Big Movie Teasers",
+                category: "Teasers",
+                quality: "Short HD Clips",
+                rating: "9.8",
+                image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80",
+                badge: "Daily Updates"
+            }
+        ];
+
+        let activeCategory = 'All';
+
+        function renderMovies(items) {
+            const grid = document.getElementById('movieGrid');
+            grid.innerHTML = '';
+
+            if (items.length === 0) {
+                grid.innerHTML = `
+                    <div class="col-span-2 text-center py-8 text-gray-400 text-xs">
+                        <i class="fa-solid fa-film text-3xl mb-2 text-cinema-telegram block"></i>
+                        Is name ki movie Telegram Channel par search karne ke liye button dabaein.
+                        <a href="https://t.me/your_telegram_channel" target="_blank" class="mt-3 inline-flex items-center gap-1.5 bg-cinema-telegram text-white font-bold px-4 py-2 rounded-xl text-xs">
+                            <i class="fa-brands fa-telegram"></i> Search on Telegram
+                        </a>
+                    </div>
+                `;
+                return;
+            }
+
+            items.forEach(movie => {
+                const card = document.createElement('div');
+                card.className = "bg-cinema-card border border-cinema-cardBorder rounded-2xl overflow-hidden flex flex-col group cursor-pointer hover:border-cinema-telegram transition-all";
+                card.onclick = () => openMovieModal(movie);
+
+                card.innerHTML = `
+                    <div class="relative h-44 w-full overflow-hidden">
+                        <img src="${movie.image}" alt="${movie.title}" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute inset-0 bg-gradient-to-t from-cinema-card via-transparent to-transparent"></div>
+                        
+                        <span class="absolute top-2 left-2 bg-cinema-red text-white text-[9px] font-extrabold px-2 py-0.5 rounded shadow">
+                            ${movie.badge}
+                        </span>
+
+                        <span class="absolute bottom-2 left-2 bg-black/70 backdrop-blur-sm text-cinema-gold text-[10px] font-bold px-2 py-0.5 rounded border border-white/10">
+                            ⭐ ${movie.rating}
+                        </span>
+                    </div>
+
+                    <div class="p-2.5 flex-1 flex flex-col justify-between space-y-2">
+                        <div>
+                            <span class="text-[9px] text-cinema-telegram font-bold uppercase tracking-wider block mb-0.5">${movie.category}</span>
+                            <h3 class="font-extrabold text-xs text-white line-clamp-1 leading-tight">${movie.title}</h3>
+                            <p class="text-[10px] text-gray-400 mt-0.5">${movie.quality}</p>
+                        </div>
+
+                        <button class="w-full bg-cinema-telegram/20 hover:bg-cinema-telegram border border-cinema-telegram/50 hover:border-cinema-telegram text-sky-300 hover:text-white font-extrabold text-[11px] py-1.5 rounded-lg flex items-center justify-center gap-1.5 transition-all">
+                            <i class="fa-brands fa-telegram text-xs"></i>
+                            <span>Download</span>
+                        </button>
+                    </div>
+                `;
+                grid.appendChild(card);
+            });
+        }
+
+        function filterMovies() {
+            const query = document.getElementById('searchInput').value.toLowerCase();
+            const filtered = movies.filter(m => {
+                const matchesCat = activeCategory === 'All' || m.category === activeCategory;
+                const matchesQuery = m.title.toLowerCase().includes(query) || m.category.toLowerCase().includes(query);
+                return matchesCat && matchesQuery;
+            });
+            renderMovies(filtered);
+        }
+
+        function setCategory(category) {
+            activeCategory = category;
+            
+            // Update Chip UI
+            const buttons = document.querySelectorAll('.chip-btn');
+            buttons.forEach(btn => {
+                if (btn.textContent.includes(category) || (category === 'All' && btn.textContent === 'All')) {
+                    btn.className = "chip-btn bg-cinema-telegram text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap shadow-md transition-all border border-white/20";
+                } else {
+                    btn.className = "chip-btn bg-cinema-card text-gray-300 hover:text-white px-3.5 py-1.5 rounded-xl whitespace-nowrap border border-cinema-cardBorder transition-all";
+                }
+            });
+
+            filterMovies();
+        }
+
+        function openMovieModal(movie) {
+            document.getElementById('modalImg').src = movie.image;
+            document.getElementById('modalTitle').textContent = movie.title;
+            document.getElementById('modalCategory').textContent = `${movie.category} • ${movie.quality}`;
+            document.getElementById('modalRating').textContent = movie.rating;
+            document.getElementById('modalQuality').textContent = movie.quality;
+            document.getElementById('movieModal').classList.remove('hidden');
+        }
+
+        function closeMovieModal() {
+            document.getElementById('movieModal').classList.add('hidden');
+        }
+
+        function shareChannelOnTelegram() {
+            const text = encodeURIComponent("🎬 Join 'ALL MOVIE' Telegram Channel For Free Bollywood, Hollywood & South Movie Downloads! Click Here: ");
+            const url = encodeURIComponent("https://t.me/your_telegram_channel");
+            window.open(`https://t.me/share/url?url=${url}&text=${text}`, '_blank');
+        }
+
+        window.onload = function() {
+            renderMovies(movies);
+        };
+    </script>
+</body>
+</html>
